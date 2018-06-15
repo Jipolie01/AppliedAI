@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "k-Nearest_Neighbours", "k-Nearest_Neighbours\k-Nearest_Neighbours.pyproj", "{1014F809-A470-4C88-BE7F-9364562F55DE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "K-Means", "K-Means\K-Means.pyproj", "{9CEA16A7-D562-4542-87C1-15989556A262}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NeuronNetwork", "NeuronNetwork\NeuronNetwork.pyproj", "{55BEDC1F-5250-48FE-82BC-ED7330505D37}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MNIST", "MNIST\MNIST.pyproj", "{FFC5E608-2AAE-4B44-9F41-33BA9F40363F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1014F809-A470-4C88-BE7F-9364562F55DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1014F809-A470-4C88-BE7F-9364562F55DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEA16A7-D562-4542-87C1-15989556A262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEA16A7-D562-4542-87C1-15989556A262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BEDC1F-5250-48FE-82BC-ED7330505D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BEDC1F-5250-48FE-82BC-ED7330505D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC5E608-2AAE-4B44-9F41-33BA9F40363F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC5E608-2AAE-4B44-9F41-33BA9F40363F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
