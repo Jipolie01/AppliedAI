@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>55bedc1f-5250-48fe-82bc-ed7330505d37</ProjectGuid>
+    <ProjectGuid>a6b66ef9-761d-4a97-a403-35e7659da838</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NeuronNetwork.py</StartupFile>
+    <StartupFile>Facial_Recognition.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>NeuronNetwork</Name>
-    <RootNamespace>NeuronNetwork</RootNamespace>
+    <Name>Facial_Recognition</Name>
+    <RootNamespace>Facial_Recognition</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="NeuronNetwork.py" />
+    <Compile Include="Facial_Recognition.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -7,32 +7,14 @@ import tensorflow as tf
 import tensorflow.contrib.eager as tfe
 
 """
-url = "http://deeplearning.net/data/mnist/mnist.pkl.gz"
-if not os.path.isfile("mnist.pkl.gz"):
-   request.urlretrieve(url, "mnist.pkl.gz")
+Why this structure?
 
-f = gzip.open('mnist.pkl.gz', 'rb')
-train_set, valid_set, test_set = pickle.load(f, encoding='latin1') 
-f.close()
+The input speaks for itself. The image are 28*28 so that is the input
 
-def get_image(number): 
-  (X, y) = [img[number] for img in train_set] 
-  return (np.array(X), y) 
+This means that there is an inputlayer (28x28), a middle layer with 10 neurons and then an output layer with 10 neurons.
 
-def view_image(number): 
-  (X, y) = get_image(number) 
-  print("Label: ", imshow(X.reshape(28,28), cmap=cm.gray))
-  show()
-
-
-Get_image already works with the trainset 
-
-Gives np.array
-[0, 0, 0, 0, 0, 0
-....
-0, 0, 0, 0, 0, 0]
-Gives values of pixels in array form (first index of image)
-Second index is the dtype. Which is mostly floats32
+When i looked for a mnist network online this structure came up a lot,
+so I saw no reason to try another structure
 
 
 """
@@ -98,24 +80,6 @@ def main(unused_argv):
     eval_labels = np.asarray(mnist.test.labels, dtype=np.int32)
 
     mnist_classifier = tf.estimator.Estimator(model_fn=model, model_dir="/tmp/mnist_model")
-
-
-#image = get_image(1)
-#image = np.array(image[0], image[1])
-#image = np.array(image[0], np.array(image[1]))
-#converting numpyarray to tensor usable
-
-#newImage = tf.convert_to_tensor(newImage, tf.float32)
-
-
-#print(train_set[1])
-#print(len(train_set[1]))
-
-#Running session
-#sess = tf.Session()
-
-
-#sess.run(outputLayer, feed_dict={input: image})
 
 
 # Open the session

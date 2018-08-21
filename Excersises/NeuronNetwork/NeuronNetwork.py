@@ -1,6 +1,21 @@
 import numpy as np
 import math
 
+
+#using example from: https://www.neuraldesigner.com/learning/examples/iris_flowers_classification
+"""
+I used this structure because that way I could follow the tutorial. I wanted to try out some more structure but didn't have the time
+
+The iris structure consists of:
+An 4 neuron inputlayer
+Two hidden layers
+- one with 5 neurons 
+- and the other with 3
+And a 3 neuron outputlayer
+
+"""
+
+
 class input:
     def __init__(self, value, name = "Input"):
         """Initializes the input and name of input class"""
@@ -353,11 +368,6 @@ print(g.getWeights())
 print(o)
 
 
-
-#using example from: https://www.neuraldesigner.com/learning/examples/iris_flowers_classification
-"""
-I used this structure because that way I could follow the tutorial. I wanted to try out some more structure but didn't have the time
-"""
 
 #initializing inputs
 sepal_length = input(0, "sepal_length")
